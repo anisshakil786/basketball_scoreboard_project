@@ -1,0 +1,97 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url("Assets/CursedTimerUlil-Aznm.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    color: #EEE;
+    background-image: url("https://aboutregional.com.au/wp-content/uploads/sites/2/2019/02/Soccer-football-football-stadium-iStock.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    height: 90dvh;
+    margin: 2rem auto 0;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    background-color: #1B244A;
+}
+
+.group-1 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.col-1 {
+    width: 30%;
+}
+
+.col-2 {
+    width: 40%;
+}
+
+.title {
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+
+.counter {
+    width: 70%;
+    height: 35%;
+    margin: 2rem auto;
+    border-radius: 0.6rem;
+    padding: 1rem 0;
+    color: #F94F6D;
+    font-size: 8rem;
+    font-weight: bold;
+    font-family: Cursed Timer ULiL;
+    background-color: #080001;
+}
+
+.col-2 .counter {
+    height: 28%;
+    font-size: 6rem;
+}
+
+.col-2 .period {
+    display: flex;
+}
+
+.period .title {
+    width: 50%;
+    padding: 4.5rem 0 0;
+    font-size: 2.5rem;
+}
+
+.period .counter {
+    width: 25%;
+    color: #34D399;
+}
+
+.add-button {
+    width: 20%;
+    border: 0.2rem solid #9AABD8;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.2rem;
+    color: #9AABD8;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #1B244A;
+}
+
+.group-2 {
+    width: 100%;
+    height: 20%;
+}

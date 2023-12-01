@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>JavaScript Challanges</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="group-1">
+            <div class="col-1">
+                <div class="title">Home</div>
+                <div class="counter" id="home-score">0</div>
+                <button class="add-button" data-action="home" onclick="addOne(this)">+1</button>
+                <button class="add-button" data-action="home" onclick="addTwo(this)">+2</button>
+                <button class="add-button" data-action="home" onclick="addThree(this)">+3</button>
+            </div>
+            <div class="col-2">
+                <div class="counter" id="timer">00:00</div>
+                <div class="period">
+                    <div class="title">PERIOD</div>
+                    <div class="counter" id="period-counter">0</div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="title">Guest</div>
+                <div class="counter" id="guest-score">0</div>
+                <button class="add-button" data-action="guest" onclick="addOne(this)">+1</button>
+                <button class="add-button" data-action="guest" onclick="addTwo(this)">+2</button>
+                <button class="add-button" data-action="guest" onclick="addThree(this)">+3</button>
+            </div>
+        </div>
+        <div class="group-2">
+            <button class="add-button" onclick="startClock()">START CLOCK</button>
+            <button class="add-button" onclick="newGame()">NEW GAME</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
